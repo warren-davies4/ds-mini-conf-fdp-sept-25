@@ -23,7 +23,7 @@ When you’re working in FDP all your stuff will be in a folder for your project
 
 ## Mission 1 - Make folders
 
-![Image of how to create folders](./images/make-folders.png)
+![Image of how to create folders](images/make-folders.png)
 
 Go to the Developer Sandbox, Solex, or any place you have write access to in FDP.
 
@@ -50,7 +50,7 @@ There is a Python API we can use read and write to Datasets, and convert to Pand
 
 # Mission 2 – Make a Dataset
 
-![Image of how to create Datasets](./images/make-dataset.png)
+![Image of how to create Datasets](images/make-dataset.png)
 
 In your /data folder:
 
@@ -168,8 +168,8 @@ from transforms.api import transform, TransformContext, Input, TransformInput, O
 
 # as should the paths to your input and output Datasets (it should have created your output Dataset based on the path and name you gave earlier)
 @transform(
-    hes=Input("ri.foundry.main.dataset.6f1e7e55-a2bc-44b1-9c38-ab930178c4a4"),
-    hes_output=Output("/SOLEX-a8870f/[Learn] Palantir Training/warren.davies/ssp/data/hes_output")
+    hes=Input(""),
+    hes_output=Output("")
 )
 def compute(
     ctx: TransformContext, 
