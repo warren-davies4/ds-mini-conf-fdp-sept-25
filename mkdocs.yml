@@ -1,25 +1,15 @@
-site_name: Python GitHub Pages
+site_name: DS Mini Conference Sept 2025 FDP Workshop
 theme:
   name: material
 
 nav:
   - Home: index.md
-  - Getting Started: getting-started.md
-  - Advanced Topics: advanced-topics.md
-  - Libraries: libraries.md
-  - FAQ: faq.md
+
 
 markdown_extensions:
   - admonition
   - codehilite
   - toc:
       permalink: true
-
-extra:
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/yourusername/python-github-pages
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/yourusername
 
 # Optional: Add any additional configuration options here.
