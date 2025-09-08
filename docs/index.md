@@ -25,7 +25,11 @@ When you’re working in FDP all your stuff will be in a folder for your project
 
 ![Image of how to create folders](images/make-folders.png)
 
-Go to the Developer Sandbox, Solex, or any place you have write access to in FDP.
+Go to the Developer Sandbox (or any other place you have write access in FDP):
+
+[Developer Sandbox](https://developersandbox.federateddataplatform.nhs.uk/workspace/compass/view/ri.compass.main.folder.05afda06-2d9f-479f-9299-005d31df0dfe)
+
+* In here you can go into the "[Learn] Palantir Training" Project and make a folder with your name
 
 Create a folder structure like this:
 
