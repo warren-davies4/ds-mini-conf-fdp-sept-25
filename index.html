@@ -267,7 +267,11 @@
 </ul>
 <h2 id="mission-1-make-folders">Mission 1 - Make folders<a class="headerlink" href="#mission-1-make-folders" title="Permanent link">&para;</a></h2>
 <p><img alt="Image of how to create folders" src="images/make-folders.png" /></p>
-<p>Go to the Developer Sandbox, Solex, or any place you have write access to in FDP.</p>
+<p>Go to the Developer Sandbox (or any other place you have write access in FDP):</p>
+<p><a href="https://developersandbox.federateddataplatform.nhs.uk/workspace/compass/view/ri.compass.main.folder.05afda06-2d9f-479f-9299-005d31df0dfe">Developer Sandbox</a></p>
+<ul>
+<li>In here you can go into the "[Learn] Palantir Training" Project and make a folder with your name</li>
+</ul>
 <p>Create a folder structure like this:</p>
 <ul>
 <li>/Tony_Stark</li>
@@ -380,8 +384,8 @@ These get updated automatically by Foundry - just let it do its thing.</p>
 
 <span class="c1"># as should the paths to your input and output Datasets (it should have created your output Dataset based on the path and name you gave earlier)</span>
 <span class="nd">@transform</span><span class="p">(</span>
-    <span class="n">hes</span><span class="o">=</span><span class="n">Input</span><span class="p">(</span><span class="s2">&quot;ri.foundry.main.dataset.6f1e7e55-a2bc-44b1-9c38-ab930178c4a4&quot;</span><span class="p">),</span>
-    <span class="n">hes_output</span><span class="o">=</span><span class="n">Output</span><span class="p">(</span><span class="s2">&quot;/SOLEX-a8870f/[Learn] Palantir Training/warren.davies/ssp/data/hes_output&quot;</span><span class="p">)</span>
+    <span class="n">hes</span><span class="o">=</span><span class="n">Input</span><span class="p">(</span><span class="s2">&quot;&quot;</span><span class="p">),</span>
+    <span class="n">hes_output</span><span class="o">=</span><span class="n">Output</span><span class="p">(</span><span class="s2">&quot;&quot;</span><span class="p">)</span>
 <span class="p">)</span>
 <span class="k">def</span><span class="w"> </span><span class="nf">compute</span><span class="p">(</span>
     <span class="n">ctx</span><span class="p">:</span> <span class="n">TransformContext</span><span class="p">,</span> 
