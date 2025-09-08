@@ -1,0 +1,26 @@
+body::before {
+    background: none;
+}
+
+body {
+    font-size: 14pt;
+}
+
+
+h1 {
+    color: inherit;
+    font-weight: 600;
+    font-size: 46px;
+}
+
+
+h2 {
+    color: inherit;
+    font-weight: 400;
+    font-size: 42px;
+    margin-top: 20px;
+}
+
+.bs-sidebar .nav .nav > li > a.active {
+    font-weight: bold;
+}

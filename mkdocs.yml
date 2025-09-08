@@ -1,10 +1,12 @@
 site_name: DS Mini Conference Sept 2025 FDP Workshop
 theme:
-  name: material
+  name: mkdocs
 
 nav:
   - Home: index.md
 
+extra_css:
+  - extra.css
 
 markdown_extensions:
   - admonition
