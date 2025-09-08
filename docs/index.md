@@ -4,7 +4,7 @@
 You can use the instructions below to follow along with the workshop at your own pace!
 
 
-## UI - it's all files!
+# UI - it's all files!
 
 ![Image of cat stuck in filing cabinet](./images/ui.png)
 
@@ -21,7 +21,7 @@ When you’re working in FDP all your stuff will be in a folder for your project
   * etc.
 
 
-## Mission 1 - Make folders
+# Mission 1 - Make folders
 
 ![Image of how to create folders](images/make-folders.png)
 
@@ -41,7 +41,7 @@ Create a folder structure like this:
 It probably makes sense to replace “Tony_Stark” with your own name.
 
 
-## Datasets
+# Datasets
 
 A Dataset (capital “D”, it’s a thing) in Foundry is appropriately named because this is where data goes. 
 
@@ -64,7 +64,7 @@ In your /data folder:
 4. Call it anything you want
 
 
-## Mission 3 – Import some data
+# Mission 3 – Import some data
 
 Download this sample of artificial HES data:
 
