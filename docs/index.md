@@ -6,7 +6,7 @@ You can use the instructions below to follow along with the workshop at your own
 
 ## UI - it's all files!
 
-![Image of cat stuck in filing cabinet](/docs/images/ui.png)
+![Image of cat stuck in filing cabinet](./images/ui.png)
 
 The UI in FDP is file-based (or seems to be)
 
@@ -23,7 +23,7 @@ When you’re working in FDP all your stuff will be in a folder for your project
 
 ## Mission 1 - Make folders
 
-![Image of how to create folders](/docs/images/make-folders.png)
+![Image of how to create folders](./images/make-folders.png)
 
 Go to the Developer Sandbox, Solex, or any place you have write access to in FDP.
 
@@ -50,7 +50,7 @@ There is a Python API we can use read and write to Datasets, and convert to Pand
 
 # Mission 2 – Make a Dataset
 
-![Image of how to create Datasets](/docs/images/make-dataset.png)
+![Image of how to create Datasets](./images/make-dataset.png)
 
 In your /data folder:
 
@@ -64,7 +64,7 @@ In your /data folder:
 
 Download this sample of artificial HES data:
 
-[Artificial HES APC 2122](/docs/data/artificial_hes_apc_2122.csv)
+[Artificial HES APC 2122](./data/artificial_hes_apc_2122.csv)
 
 Back in FDP, go to the Dataset you created and then: 
 
