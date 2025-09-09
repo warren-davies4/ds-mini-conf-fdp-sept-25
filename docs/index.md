@@ -34,8 +34,8 @@ Create a folder structure like this:
 
 * /Tony_Stark
     * /super_important_analyis
-    * /data
-    * /code
+        * /data
+        * /code
 
 It probably makes sense to replace “Tony_Stark” with your own name.
 
