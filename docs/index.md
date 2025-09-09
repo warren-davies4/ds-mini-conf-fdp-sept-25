@@ -12,12 +12,12 @@ The UI in FDP is file-based (or seems to be)
 When you’re working in FDP all your stuff will be in a folder for your project e.g.:
 
 * /super_important_analysis
-  * /data
-  * code
-  * models
-  * exploration
-  * memes
-  * etc.
+    * /data
+    * /code
+    * /models
+    * /exploration
+    * /memes
+    * /etc.
 
 
 ## Mission 1 - Make folders
@@ -33,9 +33,9 @@ Go to the Developer Sandbox (or any other place you have write access in FDP):
 Create a folder structure like this:
 
 * /Tony_Stark
-  * /super_important_analyis
-  * /data
-  * /code
+    * /super_important_analyis
+    * /data
+    * /code
 
 It probably makes sense to replace “Tony_Stark” with your own name.
 
@@ -81,16 +81,16 @@ Back in FDP, go to the Dataset you created and then:
 ![meme of man who can't decide between Code Repositories](images/code-repos-workspaces-meme.png)
 
 * Code Repositories
-  * Browser based IDE
-  * Lots of Git function accessible here (e.g., merging PRs)
-  * Has Spark / parallel processing
-  * No command line
+    * Browser based IDE
+    * Lots of Git function accessible here (e.g., merging PRs)
+    * Has Spark / parallel processing
+    * No command line
 
 * Code Workspaces
-  * Analysis focus – Jupyter notebooks
-  * Is backed by a Code Repositories! (but notebooks won’t run here)
-  * No parallel processing
-  * Has command line
+    * Analysis focus – Jupyter notebooks
+    * Is backed by a Code Repositories! (but notebooks won’t run here)
+    * No parallel processing
+    * Has command line
 
 
 ## Mission 4 – Create a Code Repository
@@ -124,14 +124,14 @@ Steps:
 The Code Repositories UI gives you:
 
 * Git functionality
-  * PRs, code review, branching etc.
-    * Protect branches
-    * Install dependencies
-  * Checks
-  * Debugger
-  * Preview - like display(df)
-  * Build – like df.write
-  * Scheduling (time, trigger)
+    * PRs, code review, branching etc.
+        * Protect branches
+        * Install dependencies
+    * Checks
+    * Debugger
+    * Preview - like display(df)
+    * Build – like df.write
+    * Scheduling (time, trigger)
 
 You get a lot of hidden files too that are used behind the scenes to make your Code Repository work! 
 These get updated automatically by Foundry - just let it do its thing.
@@ -156,11 +156,9 @@ They live in the "datasets" folder by default. You could have a file for each tr
 
 There are different types of Transforms. But they have three things in common:
 
-* Imports - you import the relevant packages
-
-* Decorator - to define the input and output datasets
-
-* Compute function - where your data processing actually happens
+* **Imports** - you import the relevant packages
+* **Decorator** - to define the input and output datasets
+* **Compute function** - where your data processing actually happens
 
 
 ## Mission 6 - Create our Transform
@@ -199,7 +197,6 @@ def compute(
 ![Image showing where the "Preview" button is](images/preview.png)
 
 * Through the menu at the bottom you can see checks on your code, test outputs, and outputs from previews and builds
-
 * If it looks OK, then you can click "Build" at the top to actually save the output data to the Dataset
 
 ![Image showing where the "Build" button is](images/build.png)
@@ -208,7 +205,5 @@ def compute(
 ## Seeing the results
 
 * Now go to the Dataset
-
 * You should see your data here
-
 * But note that your data branches too!
