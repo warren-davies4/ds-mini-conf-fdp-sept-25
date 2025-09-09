@@ -13,5 +13,3 @@ markdown_extensions:
   - codehilite
   - toc:
       permalink: true
-
-# Optional: Add any additional configuration options here.
