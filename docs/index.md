@@ -112,9 +112,11 @@ Steps:
 1. Choose “Pipelines”
 2. Choose “Python”
 3. Give the Code Repo a name
-4. Choose “Distributed transform (Spark)”
-5. Click "Add" next to the Input Dataset, and choose the one you created earlier
-6. Clike "Add" next to the Output Dataset, and choose your "data" folder
+4. Be sure to choose "Code Repository" and not "VS Code" in the blue box
+5. Click "Initialise"
+6. Choose “Distributed transform (Spark)” from the welcome screen
+7. Click "Add" next to the Input Dataset, and choose the one you created earlier
+8. Clike "Add" next to the Output Dataset, and choose your "data" folder
 
 
 ## Code Repositories
